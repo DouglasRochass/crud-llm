@@ -39,25 +39,21 @@ O objetivo principal é tornar a interação com bancos de dados mais acessível
 ## Instalação
 
 1. Clone este repositório.
-2. Instale as dependências:
 
-pip install langchain langchain_community langchain_google_genai python-dotenv mysql-connector-python
+2. Instale as dependências:
+   ```bash
+   pip install langchain langchain_community langchain_google_genai python-dotenv mysql-connector-python
+Configure as variáveis de ambiente em um arquivo .env:
 
 text
-
-3. Configure as variáveis de ambiente em um arquivo `.env`:
-
 GOOGLE_API_KEY=SuaChaveAqui
 DB_PASSWORD=SenhaDoMySQL
+Certifique-se de que o banco MySQL está rodando e acessível.
 
-text
-
-4. Certifique-se de que o banco MySQL está rodando e acessível.
-
-## Como usar
-
+Como usar
 Execute o script principal:
 
+bash
 python teste.py
 
 text
