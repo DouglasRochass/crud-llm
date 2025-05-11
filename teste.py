@@ -26,8 +26,8 @@ prompt = ChatPromptTemplate.from_template(template)
 prompt.format(schema='my schema', question="how many users are there?")
 
 
-# Cria uma isntância de conexão com o banco de dados
-db_uri = f"mysql+mysqlconnector://root:{DB_PASSWORD}@localhost:3306/chinook"
+# Cria uma instância de conexão com o banco de dados
+db_uri = f"mysql+mysqlconnector://root:{DB_PASSWORD}@localhost:3306/artista"
 db = SQLDatabase.from_uri(db_uri)
 
 
@@ -38,7 +38,7 @@ def get_schema(_):
 get_schema(None)
 
 
-# Instancia do google gemini para geração
+# Instância do google gemini para geração
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0)
 
 # Cria uma cadeia de execução 
