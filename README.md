@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como um primeiro experimento para entender, na pr�
 
 A aplicação conecta um modelo de IA generativa (Google Gemini) a um banco de dados MySQL, permitindo que o usuário faça perguntas ou comandos simples (como inserir, consultar, deletar ou atualizar dados) e receba a query SQL correspondente, que é então executada automaticamente no banco de dados.
 
-O objetivo principal é tornar a interação com bancos de dados mais acessível, mesmo para quem não domina SQL, e explorar o potencial dos LLMs na automação de tarefas do dia a dia.
+
 
 ## Principais Funcionalidades
 
