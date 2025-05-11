@@ -45,18 +45,15 @@ O objetivo principal é tornar a interação com bancos de dados mais acessível
    pip install langchain langchain_community langchain_google_genai python-dotenv mysql-connector-python
 Configure as variáveis de ambiente em um arquivo .env:
 
-text
-GOOGLE_API_KEY=SuaChaveAqui
-DB_PASSWORD=SenhaDoMySQL
+- GOOGLE_API_KEY=SuaChaveAqui
+- DB_PASSWORD=SenhaDoMySQL
 Certifique-se de que o banco MySQL está rodando e acessível.
 
 Como usar
 Execute o script principal:
 
-bash
-python teste.py
-
-text
+```bash
+  python teste.py
 
 Siga as instruções no terminal para escolher a ação desejada:
 
