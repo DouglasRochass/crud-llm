@@ -47,12 +47,11 @@ Configure as variáveis de ambiente em um arquivo .env:
 
 - GOOGLE_API_KEY=SuaChaveAqui
 - DB_PASSWORD=SenhaDoMySQL
-Certifique-se de que o banco MySQL está rodando e acessível.
+- Certifique-se de que o banco MySQL está rodando e acessível.
 
 Como usar
 Execute o script principal:
 
-```bash
   python teste.py
 
 Siga as instruções no terminal para escolher a ação desejada:
